@@ -22,3 +22,71 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px 20px;
+  font-size: 50px;
+}
+
+
+
+.text-container-intro, 
+.text-container-ingredients, 
+.text-container-directions  {
+  padding: 20px;
+  background-color: #fff;
+  margin: 15px 55px 15px 55px;
+  
+}
+
+.text-container-intro{
+  font-size: x-large;
+}
+
+#img1 {
+  width: 20cap;
+  margin: 10px 0;
+}
+
+#img2 {
+  width: 25cap;
+  margin: 10px 0;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #ddd;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li, ol li {
+  padding: 10px 0;
+}
